@@ -40,10 +40,15 @@ body {
 
 h1,
 h2,
-h3,
 h4,
 h5 {
 	font-size: 36px;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+	font-size: 25px;
 	font-weight: 700;
 	font-family: 'Roboto', sans-serif;
 }
@@ -1489,20 +1494,8 @@ h1 {
 	text-transform: uppercase;
 	display: flex;
 	padding-left: 3%;
-}
-
-/* sub tag time */
-
-/*#accordion p {
 	color: red;
 }
-
-#accordion2 p {
-	font-size: 7;
-	color: red;
-	font-style: italic;
-}
-*/
 
 #accordion h3 {
 	background-color: #0099ff;
@@ -1516,6 +1509,7 @@ h1 {
 	text-transform: uppercase;
 	display: flex;
 	padding-left: 3%;
+	color: red;
 }
 
 #accordion2 h3 {
