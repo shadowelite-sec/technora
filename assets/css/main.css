@@ -1484,9 +1484,25 @@ h1 {
 }
 
 #accordion h5 {
-	font-size: 28px;
+	font-size: 14px;
 	font-weight: 400;
+	text-transform: uppercase;
+	display: flex;
+	padding-left: 3%;
 }
+
+/* sub tag time */
+
+/*#accordion p {
+	color: red;
+}
+
+#accordion2 p {
+	font-size: 7;
+	color: red;
+	font-style: italic;
+}
+*/
 
 #accordion h3 {
 	background-color: #0099ff;
@@ -1495,8 +1511,11 @@ h1 {
 }
 
 #accordion2 h5 {
-	font-size: 28px;
+	font-size: 14px;
 	font-weight: 400;
+	text-transform: uppercase;
+	display: flex;
+	padding-left: 3%;
 }
 
 #accordion2 h3 {
@@ -2815,9 +2834,12 @@ span {
 	color: white;
 }
 
-section#schedules,
+section#schedules {
+	background: linear-gradient(0deg, transparent 0, #292250 100%);
+}
+
 section#faq {
-	background: #292250;
+	background: linear-gradient(0deg, transparent 0, #292250 100%);
 }
 
 .schedule .nav-tabs .nav-link,
