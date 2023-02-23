@@ -1548,7 +1548,7 @@ h1 {
 }
 
 #accordion h5 {
-	font-size: 12px;
+	font-size: 15px;
 	font-weight: 400;
 	text-transform: uppercase;
 	padding-left: 3%;
@@ -1563,7 +1563,7 @@ h1 {
 }
 
 #accordion2 h5 {
-	font-size: 12px;
+	font-size: 15px;
 	font-weight: 400;
 	text-transform: uppercase;
 	display: flex;
