@@ -250,7 +250,7 @@ ol li {
 	background-image: linear-gradient(65deg, #2b72ad 0, #0099ff 50%);
 	box-shadow: 0 8px 16px rgba(26, 164, 206, 0.75);
 	position: relative;
-	
+
 }
 
 .btn-common:hover {
@@ -273,6 +273,7 @@ ol li {
 	-moz-transition: all 0.2s ease-in-out;
 	-webkit-transition: all 0.2s ease-in-out;
 }
+
 /* BTN REG*/
 .btn1 {
 	font-size: 14px;
@@ -306,7 +307,7 @@ ol li {
 	/* background-image: linear-gradient(65deg, #0000ff 0, #00bfff 100%); */
 	background-image: linear-gradient(65deg, #2b72ad 0, #0099ff 50%);
 	position: relative;
-	
+
 }
 
 .btn-common1:hover {
@@ -329,6 +330,7 @@ ol li {
 	-moz-transition: all 0.2s ease-in-out;
 	-webkit-transition: all 0.2s ease-in-out;
 }
+
 /* END*/
 .about-content ul li {
 	font-size: 18px;
@@ -1546,7 +1548,7 @@ h1 {
 }
 
 #accordion h5 {
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: 400;
 	text-transform: uppercase;
 	padding-left: 3%;
@@ -1561,7 +1563,7 @@ h1 {
 }
 
 #accordion2 h5 {
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: 400;
 	text-transform: uppercase;
 	display: flex;
