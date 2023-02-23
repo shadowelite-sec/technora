@@ -3015,3 +3015,40 @@ li.stylish-list {
 		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ED0AA4, 0 0 40px #ED0AA4, 0 0 50px #ED0AA4, 0 0 60px #ED0AA4, 0 0 70px #ED0AA4;
 	}
 }
+
+/* previous projects page */
+#prj-main-body{
+    text-align: center;
+    padding: 3%;
+    background: linear-gradient(45deg, #000c44 0, #5740a1 100%);
+    padding-bottom: 220px;
+}
+#prj-main-body img{
+    /* height: 500px; */
+    padding: 3% 7%;
+}
+#prj-main-body h1{
+    font-weight: 700;
+    padding-bottom: 3%;
+}
+.vertical-align {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.prj-description{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.prj-row{
+    padding-top: 2%;
+}
+@media (max-width:800px){
+    .prj-description{
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    .prj-row{
+        padding-top: 0;
+    }
+}
