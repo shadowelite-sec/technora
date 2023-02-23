@@ -250,6 +250,7 @@ ol li {
 	background-image: linear-gradient(65deg, #2b72ad 0, #0099ff 50%);
 	box-shadow: 0 8px 16px rgba(26, 164, 206, 0.75);
 	position: relative;
+	
 }
 
 .btn-common:hover {
@@ -272,7 +273,64 @@ ol li {
 	-moz-transition: all 0.2s ease-in-out;
 	-webkit-transition: all 0.2s ease-in-out;
 }
+/* BTN REG*/
+.btn1 {
+	font-size: 14px;
+	padding: 10px 30px;
+	line-height: 22px;
+	border-radius: 30px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+	font-weight: 500;
+	color: #fff;
+	text-transform: uppercase;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+	display: inline-block;
+}
 
+.btn1 i {
+	margin-right: 5px;
+}
+
+.btn1:focus,
+.btn1:active {
+	box-shadow: none;
+	outline: none;
+	color: #fff;
+}
+
+.btn-common1 {
+	/* background-image: linear-gradient(65deg, #0000ff 0, #00bfff 100%); */
+	background-image: linear-gradient(65deg, #2b72ad 0, #0099ff 50%);
+	box-shadow: 0 8px 16px rgba(26, 164, 206, 0.75);
+	position: relative;
+	
+}
+
+.btn-common1:hover {
+	/* color: #fff; */
+	background-image: linear-gradient(65deg, rgb(253, 45, 191) 0, #ff2fff 100%);
+	color: #000;
+	font-weight: bold !important;
+	box-shadow: 0 8px 16px rgba(226, 243, 73, 0.4);
+	transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+
+.btn-common1:hover {
+	/* color: #fff; */
+	background-color: rgb(247, 223, 7);
+	color: #000;
+	box-shadow: 0 8px 16px rgba(226, 243, 73, 0.4);
+	transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+/* END*/
 .about-content ul li {
 	font-size: 18px;
 }
@@ -1492,8 +1550,8 @@ h1 {
 	font-size: 14px;
 	font-weight: 400;
 	text-transform: uppercase;
-	display: flex;
 	padding-left: 3%;
+	display: flex;
 	color: red;
 }
 
@@ -2631,6 +2689,7 @@ img#nav-logo {
 	font-size: 16px;
 	padding: 12px 40px;
 	text-transform: uppercase;
+	top: 120px;
 }
 
 /* 
